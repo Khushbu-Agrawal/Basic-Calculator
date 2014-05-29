@@ -1,0 +1,121 @@
+<Alloy>
+	<Window title="Calculator" class="container">
+		
+		<!-- INPUT CONTROLS --> 
+		<Label
+				id="lblInput1"
+				text="Input 1"
+				top="30"
+				left="10"
+				width="60"
+				height="35"
+				textAlign="left" />
+		<TextField
+				id="txtField1"
+				top="20"
+				left="80"
+				width="100"
+				height="35"
+				color="#336699"
+				textAlign="left"
+				keyboardType="Ti.UI.KEYBOARD_DECIMAL_PAD"
+				returnKeyType="Ti.UI.RETURNKEY_DONE"/>
+		<Label
+				id="lblInput2"
+				text="Input 2"
+				top="70"
+				left="10"
+				width="60"
+				height="35"
+				textAlign="left" />
+		<TextField 
+				id="txtField2"
+				top="60"
+				left="80"
+				width="100"
+				height="35"
+				color="#336699"
+				textAlign="left"
+				keyboardType="Ti.UI.KEYBOARD_DECIMAL_PAD"
+				returnKeyType="Ti.UI.RETURNKEY_DONE"/>
+		
+		<!-- RESULT CONTROLS -->
+		<Label
+				id="lblResult"
+				text="Result"
+				top="110"
+				left="10"
+				width="60"
+				height="35"
+				textAlign="left" />
+		<TextField
+				id="txtResult"
+				top="100"
+				left="80"
+				width="100"
+				height="35"
+				color="#336699"
+				textAlign="left" />
+				
+		<!-- BUTTON CONTROLS -->
+        <Button
+        		id="btnAdd"
+        		title="ADD"
+        		onClick="onAddClick"
+				top="160"
+				left="20"
+				width="65"
+				height="40" />
+        <Button
+        		id="btnSub"
+        		title="SUB"
+        		onClick="onSubstractClick"
+				top="160"
+				left="100"
+				width="65"
+				height="40" />
+         <Button
+         		id="btnMul"
+         		title="MUL"
+         		onClick="onMultiplyClick" 
+            	top="160"
+            	left="180"
+            	width="65"
+            	height="40" />
+         <Button
+         		id="btnDiv"
+         		title="DIV"
+         		onClick="onDivisionClick"
+            	top="160"
+            	left="260"
+            	width="65"
+            	height="40" /> 
+		
+		<!-- CLOUD CONTROLS -->
+		<Button
+         		id="btnLogin"
+         		title="Login"
+         		onClick="onLoginClick" 
+            	top="220"
+            	left="20"
+            	width="80"
+            	height="40" />
+         <Button
+         		id="btnSaveACS"
+         		title="Save"
+         		onClick="onSaveClick" 
+            	top="220"
+            	left="110"
+            	width="80"
+            	height="40" /> 
+         <Button
+         		id="btnACSRetrieve"
+         		onClick="onRetriveClick"
+         		title="Retrieve"
+            	top="220"
+            	left="200"
+            	width="100"
+            	height="40" /> 
+            	
+	</Window>
+</Alloy>
