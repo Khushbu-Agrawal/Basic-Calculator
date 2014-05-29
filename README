@@ -1,3 +1,2 @@
 This sample application demonstrates the basic calculator operations.It shows how to save and retrieve data from ACS.
-The application uses Alloy template for UI design that allows you to specify the UI of an application in XML and apply styles 
-to the controls in the project via a CSS-like syntax. 
+The application uses Alloy template for UI design that allows you to specify the UI of an application in XML and apply styles to the controls in the project via a CSS-like syntax. 
